@@ -6,8 +6,7 @@
  * Descrição Geral: 
  	[Esse módulo tem como especialidade trabalhar com contatos como remover contato, adicionar contatos e edição de contatos, 
 	 como também trabalha com a parte dos grupos onde o usuario pode criar um grupo, editar um grupo e removê-lo. ]
- * ****/
-/* print.h,contas.h e func.h*/
+ ****/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,10 +15,6 @@
 #include <winsock.h>
 #include <locale.h>
 #include "print.h"
-
-
-
-
 
 typedef struct {
     char nome[50];
@@ -33,8 +28,7 @@ char Gnome[30], Guser[30], Gsenha[30], Gporta[30];
 contatos add[20];
 
 int p=0;
-void preencher_struct_contato(contatos add[20]) {
-	
+void preencher_struct_contato(contatos add[20]) {	
 	
 	p=0;
 	
@@ -49,8 +43,6 @@ void preencher_struct_contato(contatos add[20]) {
 	while(fgets(array[p], 50, arq) != NULL) {
 		p++;
 	}
-	//printf("%s", array);
-
 
 	for(i=0; i<p; i++) {
 		for(j=0; j<50; j++) {
@@ -231,8 +223,6 @@ void adicionar_contato() {
 	}
 	
 }
-
-
 
 void editar_contato() {
 	

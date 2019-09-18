@@ -8,9 +8,6 @@
  		de preencher a struct com os dados do usuário. ]
  * ****/
 /* print.h,contas.h e func.h*/
-
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -18,10 +15,6 @@
 #include <winsock.h>
 #include <locale.h>
 #include "print.h"
-
-
-
-
 
 typedef struct {
 	char nome[50];

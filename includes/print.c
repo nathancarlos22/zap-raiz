@@ -1,17 +1,13 @@
-
-
 /****
  * Título: [ZapRaiz]
  * Autor: [Nathan Carlos, Denilson Pedro]
  * Data de Criação: [16/04/2019]
  * Última alteração: [01/05/2019]
- * Descrição Geral: [Por último esse modulo é onde fica os prints dos menus do programa, no qual existe pra cada print especifico uma funçao.]
- * ****/
-/* print.h,contas.h e func.h*/
+ * Descrição Geral: [Por último esse modulo é onde fica os prints dos menus do programa, 
+ 						no qual existe pra cada print especifico uma funçao.]
+*****/
 
 #include <stdio.h>
-
-
 
 void menu_inicial_client(){
     printf("********************************************************************************\n Seja bem-vindo ao ZapRaiz, o melhor programa de troca de mensagens do planeta!\n********************************************************************************\n");
@@ -50,5 +46,3 @@ void menu_gerenciar_grupos(){
 void menu_envio(){
 	printf("**************************************\n >>>>>>>>>> ENVIAR MENSAGENS <<<<<<<<<\n      \n\t 1-Contatos\n\t 2-Grupos\n\t 3-Voltar\n**************************************\n");
 }
-
-
